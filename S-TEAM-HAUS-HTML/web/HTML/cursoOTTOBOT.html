@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>S-TEAM HAUS - Curso de Smart-Bot</title>
+        <link href="../CSS/cursoOTTOBOT.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="main-content">
+                <nav class="sidebar">
+                    <h2>Curso de Smart-Bot</h2>
+                    <div class="modulos">
+                        <details class="module-select">
+                            <summary>Modulo 1</summary>
+                            <ul>
+                                <li data-url="/modulo1/electricidad">¿Qué es la electricidad?</li>
+                                <li data-url="/modulo1/robot">¿Qué es un robot?</li>
+                                <li data-url="/modulo1/otto">Otto</li>
+                                <li data-url="/modulo1/herramientas">Herramientas / Programas</li>
+                            </ul>
+                        </details>
+                        <details class="module-select">
+                            <summary>Modulo 2</summary>
+                            <ul>
+                                <li data-url="/modulo2/tema1">Tema 1</li>
+                                <li data-url="/modulo2/tema2">Tema 2</li>
+                            </ul>
+                        </details>
+                        <details class="module-select">
+                            <summary>Modulo 3</summary>
+                            <ul>
+                                <li data-url="/modulo3/tema1">Tema 1</li>
+                                <li data-url="/modulo3/tema2">Tema 2</li>
+                            </ul>
+                        </details>
+                    </div>
+                    <div class="course-info">
+                        <button>Información del curso</button>
+                        <button>Recursos</button>
+                        <button>Información de Otto</button>
+                        <a href="progresoEducativoCursos.html" style="text-decoration: none;"><button>Volver</button></a>
+                    </div>
+                    
+                </nav>
+                <div class="iframe-container">
+                    <main class="content">              
+                        <iframe src="videoCursoOTTOBOT.html" id="content-iframe"></iframe>
+                    </main>
+                </div>
+            </div>
+            <footer class="footer">
+                <button id="toggle-sidebar">Ver Módulos</button>
+            </footer>
+        </div>
+
+        <script src="../JS/cursoOTTOBOT.js" type="text/javascript"></script>
+    </body>
+</html>
